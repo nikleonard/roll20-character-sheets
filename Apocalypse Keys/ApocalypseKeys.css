@@ -586,6 +586,27 @@
 	display: -ms-flexbox;
 	display: flex;
 }
+
+/* betrayed */
+.ui-dialog .charsheet .moveselector[value=betrayed] + .movemark + div.pbbetrayed input.checker + .move {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+/* untethered */
+.ui-dialog .charsheet .moveselector[value=untethered] + .movemark + div.pbuntethered input.checker + .move {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+/* chained */
+.ui-dialog .charsheet .moveselector[value=chained] + .movemark + div.pbchained input.checker + .move {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
 .ui-dialog .charsheet .pbid {
 	font-size: 80%;
 	line-height: 80%;
@@ -612,6 +633,19 @@
 .ui-dialog .charsheet .pbselector ~ .pbhungry {
 	display: none;
 }
+/* betrayed */
+.ui-dialog .charsheet .pbselector ~ .pbbetrayed {
+	display: none;
+}
+/* untethered */
+.ui-dialog .charsheet .pbselector ~ .pbuntethered {
+	display: none;
+}
+/* chained */
+.ui-dialog .charsheet .pbselector ~ .pbchained {
+	display: none;
+}
+
 .ui-dialog .charsheet .pbselector[value=summoned] ~ .pbsummoned {
 	display: initial;
 }
@@ -633,6 +667,19 @@
 .ui-dialog .charsheet .pbselector[value=hungry] ~ .pbhungry {
 	display: initial;
 }
+/* betrayed */
+.ui-dialog .charsheet .pbselector[value=betrayed] ~ .pbbetrayed {
+	display: initial;
+}
+/* untethered */
+.ui-dialog .charsheet .pbselector[value=untethered] ~ .pbuntethered {
+	display: initial;
+}
+/* chained */
+.ui-dialog .charsheet .pbselector[value=chained] ~ .pbchained {
+	display: initial;
+}
+
 .ui-dialog .charsheet .pbunselector ~ .pbsummoned {
 	display: initial;
 }
@@ -654,6 +701,18 @@
 .ui-dialog .charsheet .pbunselector ~ .pbhungry {
 	display: initial;
 }
+/* betrayed */
+.ui-dialog .charsheet .pbunselector ~ .pbbetrayed {
+	display: initial;
+}
+/* untethered */
+.ui-dialog .charsheet .pbunselector ~ .pbuntethered {
+	display: initial;
+}
+/* chained */
+.ui-dialog .charsheet .pbunselector ~ .pbchained {
+	display: initial;
+}
 .ui-dialog .charsheet .pbunselector[value=summoned] ~ .pbsummoned {
 	display: none;
 }
@@ -673,6 +732,18 @@
 	display: none;
 }
 .ui-dialog .charsheet .pbunselector[value=hungry] ~ .pbhungry {
+	display: none;
+}
+/* betrayed */
+.ui-dialog .charsheet .pbunselector[value=betrayed] ~ .pbbetrayed {
+	display: none;
+}
+/* untethered */
+.ui-dialog .charsheet .pbunselector[value=untethered] ~ .pbuntethered {
+	display: none;
+}
+/* chained */
+.ui-dialog .charsheet .pbunselector[value=chained] ~ .pbchained {
 	display: none;
 }
 .ui-dialog .charsheet .rollup ~ .roller {

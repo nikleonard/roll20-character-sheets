@@ -640,6 +640,12 @@ on("change:ruincon1 change:ruincon2", function(event) {
       <div class="pbfallen"><a class="bold fglink" href="#headerplaybook"><span data-i18n="fallen">fallen</span> </a>
       </div>
       <div class="pbhungry"><a class="bold fglink" href="#headerplaybook"><span data-i18n="hungry">hungry</span> </a>
+      </div>
+      <div class="pbbetrayed"><a class="bold fglink" href="#headerplaybook"><span data-i18n="betrayed">betrayed</span> </a>
+      </div>
+      <div class="pbuntethered"><a class="bold fglink" href="#headerplaybook"><span data-i18n="untethered">untethered</span> </a>
+      </div>
+      <div class="pbchained"><a class="bold fglink" href="#headerplaybook"><span data-i18n="chained">chained</span> </a>
       </div>• 
       <input type="hidden" name="attr_xp"/>
       <input type="hidden" name="attr_ruin"/><span>
@@ -691,6 +697,12 @@ on("change:ruincon1 change:ruincon2", function(event) {
               <option value="fallen" data-i18n="fallen">The fallen
               </option>
               <option value="hungry" data-i18n="hungry">The hungry
+              </option>
+              <option value="betrayed" data-i18n="betrayed">The betrayed
+              </option>
+              <option value="untethered" data-i18n="untethered">The untethered
+              </option>
+              <option value="chained" data-i18n="chained">The chained
               </option>
             </select>
             <input class="pbselector" type="hidden" name="attr_playbook" value=""/>
@@ -775,6 +787,42 @@ on("change:ruincon1 change:ruincon2", function(event) {
                 <li><span data-i18n="My power is intimate, transformative, and harrowing. ">My power is intimate, transformative, and harrowing. </span> 
                 </li>
                 <li><span data-i18n="My heart yearns to consume and be consumed.">My heart yearns to consume and be consumed.</span> 
+                </li>
+              </ul>
+            </div>
+            <div class="pbbetrayed">
+              <ul>
+                <li><span data-i18n="I am a vessel of an unknowable and inhuman entity that demands horrific justice.">I am a vessel of an unknowable and inhuman entity that demands horrific justice.</span> 
+                </li>
+                <li><span data-i18n="I embody the terror and consequence of the apocalypse.">I embody the terror and consequence of the apocalypse.</span> 
+                </li>
+                <li><span data-i18n="My power is protective, uncompromising, and merciless.">My power is protective, uncompromising, and merciless.</span>
+                </li>
+                <li><span data-i18n="My heart yearns to punish and be punished.">My heart yearns to punish and be punished.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="pbuntethered">
+              <ul>
+                <li><span data-i18n="I am a weeping wound of abandonment.">I am a weeping wound of abandonment.</span>
+                </li>
+                <li><span data-i18n="I embody the pain and perfection of the apocalypse.">I embody the pain and perfection of the apocalypse.</span>
+                </li>
+                <li><span data-i18n="My power is reflective, manipulative, and elegant.">My power is reflective, manipulative, and elegant.</span>
+                </li>
+                <li><span data-i18n="My heart yearns to feel and be felt.">My heart yearns to feel and be felt.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="pbchained">
+              <ul>
+                <li><span data-i18n="I am dragged into the depths of the will of others.">I am dragged into the depths of the will of others.</span>
+                </li>
+                <li><span data-i18n="I embody the fury and shadow of the apocalypse.">I embody the fury and shadow of the apocalypse.</span>
+                </li>
+                <li><span data-i18n="My power is heavy, restrictive, and not my own.">My power is heavy, restrictive, and not my own.</span>
+                </li>
+                <li><span data-i18n="My heart yearns to connect and be connected with.">My heart yearns to connect and be connected with.</span>
                 </li>
               </ul>
             </div><a name="headercharacter_creation_options"></a>
@@ -3337,6 +3385,33 @@ on("change:ruincon1 change:ruincon2", function(event) {
                     </div>
                   </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               </div>
             </div>
           </div>
@@ -4733,9 +4808,9 @@ on("change:ruincon1 change:ruincon2", function(event) {
                         </button></span>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div>
+                                      </div>
+                    </div>
+                                  <div>
                 <input class="view" type="hidden" name="attr_check_checkableruinadvance_newruincon_1" value="0"/>
                 <div class="viewable">
                   <div class="checklist1box">
